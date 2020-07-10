@@ -1,0 +1,13 @@
+GET http://localhost:3000/subscribers
+
+
+###
+
+PATCH http://localhost:3000/subscribers/5eeaf4880af2842b206a0376
+Content-Type: application/json
+
+{
+    "name":"new updated person",
+    "subscriberToChannel" : "Web Dev Simplified"
+
+}
